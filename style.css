@@ -1,0 +1,104 @@
+body {
+	background-color: #EEFBFC;
+	color: black;
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	color: #0D1B2A;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	letter-spacing: -1px;
+	font-size: 50px;
+}
+
+h2 {
+	color: #000D14;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 25px
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: purple;
+}
+
+#profile {
+	border-radius: 50%;
+	width: 200px;
+}
+
+
+#pk3-circle {
+	border-radius: 50%;
+	width: 150px;
+}
+
+
+.text-justify {
+	text-align: center;
+}
+
+.h-justify {
+	text-align: center;
+}
+
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.rappeur {
+	width: 75px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+}
+
+#rap-border {
+	width: 200px;
+	border-radius: 5%;
+}
+
+#basket {
+	width: 400px;
+	height: 200px;
+	border-radius: 5%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+
+
+
